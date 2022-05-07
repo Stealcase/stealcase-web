@@ -1,24 +1,24 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "@/components/HelloWorld.vue";
+import HeaderNav from "@/components/HeaderNav.vue";
 </script>
 
 <template>
   <header>
     <img
-      alt="Vue logo"
+      alt="Stealcase's profile image, illustrated face in a cartoony style. White male with brown spiky hair, Square glasses and smiling with a wide grin. Clear blue sky behind him."
       class="logo"
-      src="@/assets/logo.svg"
+      src="@/assets/profile_pic.jpg"
       width="125"
       height="125"
     />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HeaderNav msg="Hello" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/mechsofthenorth">Mechs of the North</RouterLink>
       </nav>
     </div>
   </header>
@@ -50,7 +50,7 @@ header {
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: rgb(0, 164, 189);
   transition: 0.4s;
 }
 

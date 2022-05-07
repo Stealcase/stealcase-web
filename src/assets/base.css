@@ -72,3 +72,83 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+
+/*SVGS */
+svg{width: 60px;}
+
+svg .svgSocialMedia{
+        transition: 200ms;     
+        transition-timing-function: ease-in-out;
+        -webkit-transition: 500ms;
+        -webkit-transition-timing-function: ease-in-out; 
+}
+
+/*Facebook*/
+svg:hover #outer_circle_fb { 
+    fill: #3b5a9a;
+}
+
+/*Twitter*/
+svg:hover #outer_circle_tw { 
+    fill: #55acee;
+}
+
+/*Instagram Start*/
+
+#gradient stop { 
+        transition: 200ms;     
+        transition-timing-function: ease-in-out;
+        -webkit-transition: 500ms;
+        -webkit-transition-timing-function: ease-in-out; 
+}
+
+svg.gradient:hover #gradient stop:nth-child(1) { stop-color: #ffdc80; }
+
+svg.gradient:hover #gradient stop:nth-child(2) { stop-color: #fcaf45; }
+
+svg.gradient:hover #gradient stop:nth-child(3) { stop-color: #f77737; }
+
+svg.gradient:hover #gradient stop:nth-child(4) { stop-color: #f56040; }
+
+svg.gradient:hover #gradient stop:nth-child(5) { stop-color: #fd1d1d; }
+
+svg.gradient:hover #gradient stop:nth-child(6) { stop-color: #e1306c; }
+
+svg.gradient:hover #gradient stop:nth-child(7) { stop-color: #c13584; }
+
+svg.gradient:hover #gradient stop:nth-child(8){ stop-color: #833ab4; }
+
+svg.gradient:hover #gradient stop:nth-child(9) { stop-color: #5851db; }
+
+svg.gradient:hover #gradient stop:nth-child(10){ stop-color: #405de6; }
+
+/*Instagram End*/
+
+/*Linked In*/
+svg:hover #outer_circle_li { 
+    fill: #00a0dc;
+}
+
+/*Youtube*/
+svg:hover #outer_circle_youtube { 
+    fill: #cd201f;
+}
+
+/*codepen*/
+svg:hover #outer_circle_cp { 
+    fill: #000000;
+}
+
+/*email*/
+svg:hover .outer_circle_email { 
+    fill: #f89a1e;
+    stroke: #f89a1e;
+}
+
+/*get the individual divs containing logo's to allign*/
+/*I have to place each logo in an individual line because for some reason when I put <a> tags side by side with an svg in them, there was a little line inbetween each svg icon*/
+.socialMediaIcons{
+    float: left;
+}
