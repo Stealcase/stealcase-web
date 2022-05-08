@@ -1,7 +1,9 @@
 <template>
 <!-- https://codepen.io/DT_1000/pen/dpBKRb -->
         <a href="https://www.instagram.com/stealcase_gamedev/"  target="_blank">
-            <svg class="gradient" width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+            <svg class="gradient" width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"> 
+             <title id="InstagramId">Instagram</title>
+
                 <defs>
                     <radialGradient id="gradient" cx="0.5" cy="0.6" r="0.8" fx="0.1" fy="1.25">
                         <stop class="one" offset="10%" stop-color="#E1CFA3"/>
