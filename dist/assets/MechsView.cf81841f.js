@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,a as _}from"./index.85aa6e89.js";const c={},o={class:"mech"},a=_("h1",null,"This is the Mechs of the North Page",-1),n=[a];function r(h,i){return s(),t("div",o,n)}var l=e(c,[["render",r]]);export{l as default};
