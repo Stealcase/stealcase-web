@@ -5,6 +5,7 @@ import ToolingIcon from "./icons/IconTooling.vue";
 import InstagramIcon from "./icons/InstagramIcon.vue";
 import TwitterIcon from "./icons/TwitterIcon.vue";
 import YoutubeIcon from "./icons/YoutubeIcon.vue";
+import MastodonIcon from "./icons/MastodonIcon.vue";
 </script>
 
 <template>
@@ -18,7 +19,6 @@ import YoutubeIcon from "./icons/YoutubeIcon.vue";
     <a target="_blank" href="https://stealcase.itch.io/mechs-of-the-north">Mechs of the North</a>
     <div></div>
     <a target="_blank" href="https://monstersofthenorth.com/">Monsters of the North</a>
-
   </WelcomeItem>
   <WelcomeItem>
     <template #icon>
@@ -28,5 +28,6 @@ import YoutubeIcon from "./icons/YoutubeIcon.vue";
     <YoutubeIcon></YoutubeIcon>
     <TwitterIcon></TwitterIcon>
     <InstagramIcon></InstagramIcon>
+    <MastodonIcon></MastodonIcon>
   </WelcomeItem>
 </template>

@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "serve": "vue serve",
     "build": "vue-tsc --noEmit && vite build",
+    "build:prod": "vue-tsc --noEmit && vite build",
     "copy": "copy \"CNAME\" \"dist\"",
     "preview": "vite preview --port 5050",
     "test:unit": "vitest --environment jsdom",
