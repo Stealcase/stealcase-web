@@ -34,7 +34,7 @@ jobs:
     - run: npm run build --if-present
     - uses: actions/checkout@master
     - name: copy file
-      run: cp "CNAME" "./dist/CNAME"
+      run: cp "CNAME" "/dist/"
     - name: Upload Artifact
       uses: actions/upload-artifact@main
       with:
