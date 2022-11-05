@@ -33,12 +33,12 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - name: copy file
-      run: cp "CNAME" "/dist/"
+      run: cp CNAME /dist
     - name: Upload Artifact
       uses: actions/upload-artifact@main
       with:
         name: build
-        path: "./dist"
+        path: /dist
   deploy:
     name: Deploy
     needs: build
