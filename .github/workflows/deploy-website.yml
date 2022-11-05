@@ -32,11 +32,13 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
+    - run: echo $PWD
+    - run: echo ls
     - name: Upload Artifact
       uses: actions/upload-artifact@main
       with:
         name: build
-        path: /dist
+        path: "dist/"
   deploy:
     name: Deploy
     needs: build
@@ -50,16 +52,16 @@ jobs:
         uses: actions/download-artifact@main
         with:
           name: build
-          path: "./dist"
+          path: "dist/"
       - name: copy file
-        run: mv CNAME /dist
+        run: mv CNAME "dist/"
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload folder
-          path: "./dist"
+          path: "dist/"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
