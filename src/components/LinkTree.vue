@@ -16,8 +16,8 @@ import MastodonIcon from "./icons/MastodonIcon.vue";
     <template #heading>Games</template>
     <a target="_blank" href="https://stealcase.itch.io/codedungeon">Code Dungeon</a>
     <div></div>
-    <a target="_blank" href="https://stealcase.itch.io/mechs-of-the-north">Mechs of the North</a>
-    <div></div>
+    <!-- <a target="_blank" href="https://stealcase.itch.io/mechs-of-the-north">Mechs of the North</a>
+    <div></div> -->
     <a target="_blank" href="https://monstersofthenorth.com/">Monsters of the North</a>
   </WelcomeItem>
   <WelcomeItem>

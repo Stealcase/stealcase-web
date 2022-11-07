@@ -16,10 +16,10 @@ import HeaderNav from "@/components/HeaderNav.vue";
     <div class="wrapper">
       <HeaderNav msg="Hello" />
 
-      <nav>
+      <!-- <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/mechsofthenorth">Mechs of the North</RouterLink>
-      </nav>
+      </nav> -->
     </div>
   </header>
 

@@ -8,7 +8,7 @@ defineProps<{
   <div class="greetings">
     <h1 class="blue">Hey</h1>
     <h3>
-      I'm Stealcase. I make Games.
+      I'm Stealcase. I make Games that are blind accessible.
     </h3>
   </div>
 </template>
